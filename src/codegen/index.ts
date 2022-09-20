@@ -6,13 +6,17 @@
 
 import * as _0 from "./Hub.types";
 import * as _1 from "./Hub.client";
-import * as _2 from "./Nft.types";
-import * as _3 from "./Nft.client";
+import * as _2 from "./Hub.react-query";
+import * as _3 from "./Nft.types";
+import * as _4 from "./Nft.client";
+import * as _5 from "./Nft.react-query";
 export namespace contracts {
   export const Hub = { ..._0,
-    ..._1
+    ..._1,
+    ..._2
   };
-  export const Nft = { ..._2,
-    ..._3
+  export const Nft = { ..._3,
+    ..._4,
+    ..._5
   };
 }

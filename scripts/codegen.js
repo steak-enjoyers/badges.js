@@ -24,6 +24,25 @@ codegen({
       bundleFile: "index.ts",
       scope: "contracts",
     },
+    types: {
+      enabled: true,
+    },
+    client: {
+      enabled: true,
+    },
+    reactQuery: {
+      enabled: true,
+      optionalClient: true,
+      version: "v4",
+      mutations: true,
+      queryKeys: true,
+    },
+    recoil: {
+      enabled: false,
+    },
+    messageComposer: {
+      enabled: false,
+    },
   },
 })
   .then(() => {
